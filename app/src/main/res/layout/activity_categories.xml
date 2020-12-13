@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:background="#BDBDBD">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonIcedCoffee"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ICED COFFEE"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="204dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonSmoothie"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMOOTHIE"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonBurger"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BURGER"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="204dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonMuffin"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MUFFIN"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonBF"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewBF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BREAKFAST"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="204dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonBagatelle"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewBT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BAGATELLE"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonCoffee"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COFFEE"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="204dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="1.5dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonSNW"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@drawable/imageconers"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+
+                    <TextView
+                        android:id="@+id/textViewSNW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="WINGS"
+                        android:paddingLeft="60dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

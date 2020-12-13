@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "538718642571",
+    "firebase_url": "https://qualityconversations-5da4b.firebaseio.com",
+    "project_id": "qualityconversations-5da4b",
+    "storage_bucket": "qualityconversations-5da4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538718642571:android:8a02c8b10687e59b128f8e",
+        "android_client_info": {
+          "package_name": "com.again.phoenixdevelopers.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYsbSQo-y7vizE8tW9gzZ_HVSQUWmpwqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538718642571:android:9894b09cb1aebdf4",
+        "android_client_info": {
+          "package_name": "com.again.phoenixdevelopers.qualitycoversationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYsbSQo-y7vizE8tW9gzZ_HVSQUWmpwqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538718642571:android:9dab90e696347bdc128f8e",
+        "android_client_info": {
+          "package_name": "com.phoenix.mb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYsbSQo-y7vizE8tW9gzZ_HVSQUWmpwqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538718642571-nntunn37n9b2ku8bnpk6rqo7653821c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
